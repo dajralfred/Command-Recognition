@@ -6,5 +6,7 @@ This project should be run on Google Colab.
 This project requires that the dataset be downloaded and the folder inside the extract file named '\fluent_speech_commands_dataset' be saved to one's Google Drive.
 
 ###
-Please run the *ImageGenerator.ipynb* file. This file runs but the Preprocessing stage takes many hours. 
+Please run the *Data_Preprocessor.ipynb* file. This file runs but the Preprocessing stage takes many hours. 
+When this is done. You can either download the files to a .zip which then be uploaded to Colab or you can select the option to download the data directly from Drive to Colab.
+Once the data is in Colab, adjust root folders as necessary and run the *Trainer.ipynb*
 
